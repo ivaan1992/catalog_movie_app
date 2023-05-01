@@ -1,0 +1,27 @@
+<mat-card [class]="cardClasses">
+    <ng-container *ngIf="show">
+        <mat-card-header>
+            <mat-card-title>
+                {{title}}
+            </mat-card-title>
+        </mat-card-header>
+    </ng-container>
+  <img
+    class="movie-image"
+    mat-card-image
+    [src]="image"
+    [alt]="title"
+  />
+  <mat-card-content>
+    <h1 class="movie-title" *ngIf="!show">{{title}}</h1>
+    <ng-container *ngIf="show">
+        <p>{{description}}</p>
+        <p><strong>Date release:</strong> {{date}}</p>
+        <p><strong>Rating:</strong> {{rating}}</p>
+    </ng-container>
+
+  </mat-card-content>
+  <mat-card-actions *ngIf="!show">
+    <button mat-button (click)="navigate()">INFO</button>
+  </mat-card-actions>
+</mat-card>

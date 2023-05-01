@@ -1,0 +1,10 @@
+<div *ngIf="movieInfo" class="show-movie">
+    <app-movie-card
+        [title]="movieInfo.title"
+        [image]="'https://image.tmdb.org/t/p/w500' + movieInfo.poster_path"
+        [show]="true"
+        [description]="movieInfo.overview"
+        [date]="movieInfo.release_date"
+        [rating]="movieInfo.vote_average"
+    ></app-movie-card>
+</div>
