@@ -1,28 +1,50 @@
-# TechTestSkytex
+# Movie App 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
+This is an app that I created as a technical test for Skytex company
 
-## Development server
+The purpose of this project is show my Angular skills. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Screenshot 🎞️
 
-## Code scaffolding
+![Screenshot from 2023-05-01 14-54-32](https://user-images.githubusercontent.com/73128809/235533229-f97dace0-48cd-413b-8b9f-df5050aea479.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+##  🛠️ Built With ⚒️
 
-## Build
+- Css
+- Html
+- TypeScript
+- Angular
+ 
+##  💻Live Demo
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+You can check my project <a href="https://64502b98e31c9a322d9170f2--fabulous-youtiao-bfb384.netlify.app/">Here</a>
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Getting Started 
 
-## Running end-to-end tests
+- Clone the repo with git@github.com:ivaan1992/catalog_movie_app.git
+- Open your terminal or command line
+- Run git clone and paste the link
+- Run ng serve -o to launch the server.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Authors
 
-## Further help
+👤 **Ivan Gaona**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# cataloge_movie_app
+
+- GitHub: [@ivaan1992](https://github.com/ivaan1992)
+- Twitter: [@ivangaona92](https://twitter.com/ivangaona92)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ivan-linares-gaona/)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+## 📝 License
+
+This project is <a href="https://opensource.org/licenses/MIT">MIT</a> licensed.
