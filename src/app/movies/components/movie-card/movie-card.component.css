@@ -1,0 +1,18 @@
+.movie-card {
+    width: 100%;
+}
+
+.movie-card .movie-title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.big-movie-card {
+    max-width: 50%;
+    margin: auto;
+}
+
+.movie-image {
+    margin-bottom: 1rem;
+}

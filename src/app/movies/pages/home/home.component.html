@@ -1,0 +1,7 @@
+<div class="row" *ngIf="movies">
+    <app-movie-card class="card" *ngFor="let movie of movies"
+        [title]="movie.title"
+        [image]="'https://image.tmdb.org/t/p/w500' + movie.poster_path"
+        [id]="movie.id"
+    ></app-movie-card>
+</div>
