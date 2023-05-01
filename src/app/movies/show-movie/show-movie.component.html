@@ -1,8 +1,7 @@
-<h2>Movies:</h2>
-<ul>
-    <li *ngFor="let movie of movieInfo">
-        
-        <h2>{{ movie.title }}</h2>
-        <p>{{ movie.overview }}</p>
-    </li>
-</ul>
+<div *ngIf="movieInfo">
+    <h2>{{ movieInfo.title }}</h2>
+    <img [src]="'https://image.tmdb.org/t/p/w500' + movieInfo.poster_path" alt="Movie Poster">
+    <p><strong>Overview:</strong> {{ movieInfo.overview }}</p>
+    <p><strong>Release date:</strong> {{ movieInfo.release_date }}</p>
+    <p><strong>Rating:</strong> {{ movieInfo.vote_average }}</p>
+</div>

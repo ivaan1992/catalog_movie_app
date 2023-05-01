@@ -15,7 +15,7 @@ export class ShowMovieComponent {
   ngOnInit() {
     const id = this.route.snapshot.paramMap.get('id');
     this.moviesService.getMovie(id).subscribe((data: any) => {
-      this.movieInfo = data.results;
+      this.movieInfo = data;
     });
   }
 }

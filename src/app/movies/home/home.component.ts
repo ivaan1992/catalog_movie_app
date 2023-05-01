@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { MoviesService } from '../movies.service';
 
 @Component({
@@ -13,7 +13,7 @@ export class HomeComponent {
 
   ngOnInit() {
     this.moviesService.getMovies().subscribe((data: any) => {
-      this.movies = data.results;
+      this.movies = data.results;    
     });
   }
 }
