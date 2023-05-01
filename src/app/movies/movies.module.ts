@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { ShowMovieComponent } from './show-movie/show-movie.component';
+import { AppRoutingModule } from '../app-routing.module';
 
 
 
@@ -11,7 +12,8 @@ import { ShowMovieComponent } from './show-movie/show-movie.component';
     ShowMovieComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AppRoutingModule
   ]
 })
 export class MoviesModule { }
