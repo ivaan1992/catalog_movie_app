@@ -14,6 +14,6 @@ export class HomeComponent {
   ngOnInit() {
     this.moviesService.getMovies().subscribe((data: any) => {
       this.movies = data.results;
-    })
+    });
   }
 }

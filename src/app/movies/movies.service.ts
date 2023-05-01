@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { identity } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -16,8 +15,7 @@ export class MoviesService {
     return this.http.get(`${this.apiUrl}/movie/popular?api_key=${this.apiKey}`);
   }
 
-  /*
-  getMovie() {
+  getMovie(id: any) {
     return this.http.get(`${this.apiUrl}/movie/${id}?api_key=${this.apiKey}`);
-  }*/
+  }
 }
